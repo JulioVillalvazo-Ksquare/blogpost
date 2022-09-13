@@ -49,6 +49,7 @@ main {
     padding: 20px;
     grid-gap: 5%;
     list-style: none;
+    margin-bottom: 40px;
 }
 
 .blog {
@@ -79,6 +80,7 @@ main {
 
 .blog .blog-top img {
     width: 100%;
+    border-radius: 14px;
 }
 
 .blog .blog-bottom p {
@@ -91,4 +93,12 @@ main {
     background-color: papayawhip;
     border-radius: 20px;
     margin-top: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: rgba(83, 17, 17, 0.4);
 }
